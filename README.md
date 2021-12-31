@@ -1,7 +1,7 @@
-# Synchronous_sysnthesis_FIFO
+# Asynchronous_syntheziable_FIFO
 
-This is a Synchronous systheziable FIFO design. 
-For synchronous FIFO design (a FIFO where writes to, and reads from the FIFO buffer are conducted in the same
+This is a Asynchronous syntheziable FIFO design. 
+For Asynchronous FIFO design (a FIFO where writes to, and reads from the FIFO buffer are conducted in the different
  clock domain), one implementation counts the number of writes to, and reads from the FIFO buffer to increment (on
  FIFO write but no read), decrement (on FIFO read but no write) or hold (no writes and reads, or simultaneous write
  and read operation) the current fill value of the FIFO buffer. The FIFO is full when the FIFO counter reaches a
